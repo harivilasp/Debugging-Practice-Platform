@@ -1,0 +1,193 @@
+/* font-family: 'Indie Flower', cursive; */
+
+/*  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Great Vibes', cursive;
+}
+
+h1{
+    font-size: 3.5em;
+    margin: 10px;
+}
+
+h3{
+    font-size: 2em;
+    margin: 10px;
+}
+
+h5{
+    font-size: 1.5em ;
+    margin: 10px;
+}
+
+.hero{
+    background: linear-gradient(to bottom right, #2196F3, #009688);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.hero1{
+    background: linear-gradient(to bottom right, #ffe259, #ffa751);
+    height:100%;
+    flex-direction: column;
+}
+
+.bt{
+    width:100%;
+    border: 2px solid black;
+}
+
+.ind{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.menu{
+    width:100%;
+    background: yellow;
+    height: 60px;
+    word-spacing: 10px;
+    /* position: fixed; */
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block; 
+}
+
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 15px 0px 15px;
+}
+
+.services{
+    widows: 100%;
+    background-color: hsl(0, 0%, 95%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.col-wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.service-col{
+    width:33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+
+.service-col img{
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+}
+
+.col-wrapper::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.aboutus{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(/static/tvf.jpg);
+    background-size: 100%  600px;
+    color:white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.abo-con{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.abt-btn{
+    background: rgba(0,0,0,0.01);
+    padding: 10px;
+    margin-top: 30px;
+    border:none;
+    outline: 1px solid rgba(240, 199, 66, 0.849);
+    color: white
+}
+
+
+.team{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.team-wrapper{
+    width:90%;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.col-team{
+    width:33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+
+.col-team img{
+    width: 80px;
+    max-width: 100%;
+}
+
+.col{
+     max-width: 200px;
+     max-height: 170px;
+     border: 1px solid rgba(0,0,0,0.09);
+     box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.09); 
+}
+
+.team-wrapper::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.wiki{
+    background: linear-gradient(to bottom right, #a8ff78, #78ffd6);
+    /* color:white; */
+    
+}
+
+.inwiki{
+    align-items: stretch;
+    border: 2px solid gray;
+    background: rgba(0,0,0,0.1);
+    padding: 10px 15px 10px 15px;
+    padding-left: 30px;
+    outline-style: ridge;
+    outline-color: yellow;
+    font-size: 1.5em;
+    word-spacing: 5px;
+}
